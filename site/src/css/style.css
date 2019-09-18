@@ -23,7 +23,7 @@ body {
   display: inline-block;
 
   /* Our sidebar item styling */
-  text-decoration: none;
+  text-decoration: none!important;
   margin-bottom: 10px;
   color: white;
   transition: color 0.2s;
@@ -31,7 +31,8 @@ body {
 
 /* Change color on hover */
 .bm-item:hover {
-  color: blue;
+  color: black;
+  text-decoration: none!important;
 }
 
 /* The rest copied directly from react-burger-menu docs */
@@ -47,7 +48,7 @@ body {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: lightskyblue
+  background: grey;
 }
 
 /* Position and sizing of clickable cross button */
@@ -63,9 +64,11 @@ body {
 
 /* General sidebar styles */
 .bm-menu {
-  background: lightskyblue;
+  background-color:#000000;
+background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+
 }
 
 /* Morph shape necessary with bubble or elastic */
