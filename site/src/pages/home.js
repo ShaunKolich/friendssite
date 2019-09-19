@@ -45,14 +45,36 @@ Button{
 Button:hover{
     color:black!important;
 }
+p{
+    width:50%;
+    margin:0 auto;
+    line-height:2;
+}
 
 `;
 
 const ProjectSlider = styled.div`
 width:100%;
 height:600px;
-border:2px solid blue;
+// border:2px solid blue;
 
+`;
+
+const Contact = styled.div`
+width:100%;
+height:200px;
+// border:2px solid red;
+
+
+`;
+
+const Footer = styled.div`
+
+background-color:black;
+color:white;
+h3{
+font-size:16px;
+}
 `;
 
 class Home extends Component {
@@ -75,8 +97,14 @@ Developer of Front End Web Developer role at your company.</p>
                 <ProjectSlider>
                   <ProjSlider/>
                 </ProjectSlider>
-
-
+                <Contact>
+                    <h2>Contact Info</h2> 
+                    <h4><i class="fas fa-envelope"><a href = "mailto:globalxbank@gmail.com"> Send Email</a></i></h4>   
+                    <h4><i class="fas fa-mobile-alt"> <a href = "tel:4074868060">Call Me</a></i></h4>
+                </Contact>
+                <Footer>
+                    <h3>Copyright by Shaun Kolich</h3>
+                </Footer>
             </div>
 
 
