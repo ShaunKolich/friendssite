@@ -86,7 +86,7 @@ class Home extends Component {
 
                 </SliderWrapper>
                 <AboutMe>
-                    <h1>About Me</h1>
+                    <h1 id="about">About Me</h1>
                     <p>Hard-working professional with 13+ years of experience and a proven knowledge of project lifecycle,
 troubleshooting, and desktop technology. Aiming to leverage my skills to successfully fill the Full Stack Web
 Developer of Front End Web Developer role at your company.</p>
@@ -94,11 +94,11 @@ Developer of Front End Web Developer role at your company.</p>
                     <button><a href="https://www.linkedin.com/in/shaun-kolich-98517450/" className="button" target="_blank">LinkedIn</a></button>
                     <button><a href="https://github.com/ShaunKolich" className="button" target="_blank">GitHub</a></button>
                 </AboutMe>
-                <ProjectSlider>
+                <ProjectSlider id="showcase">
                   <ProjSlider/>
                 </ProjectSlider>
                 <Contact>
-                    <h2>Contact Info</h2> 
+                    <h2 id="contact">Contact Info</h2> 
                     <h4><i class="fas fa-envelope"><a href = "mailto:globalxbank@gmail.com"> Send Email</a></i></h4>   
                     <h4><i class="fas fa-mobile-alt"> <a href = "tel:4074868060">Call Me</a></i></h4>
                 </Contact>
